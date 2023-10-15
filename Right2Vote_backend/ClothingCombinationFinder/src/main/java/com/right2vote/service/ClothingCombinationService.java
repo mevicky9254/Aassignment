@@ -46,7 +46,7 @@ public List<String> getCombinations(double budget) throws Exception {
                     
                     if (remainingMoney < 50) {
                     	count++;
-                        combinations.add("Combination:"+ count +" ==>   T-shirts = " + tShirts + "   Jeans = " + jeans + "   Jackets = " + jackets + ", remainingBudget = " + remainingMoney);
+                        combinations.add("Combination:"+ count +" ->"+" "+" "+" "+" "+"T-shirts = " + tShirts +" "+" "+" "+" "+"Jeans = " + jeans +" "+" "+" "+" "+"Jackets = " + jackets +" "+" "+" "+" "+ "RemainingBudget = "+"₹ " + remainingMoney);
                     }
                 }
             }
