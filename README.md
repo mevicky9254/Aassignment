@@ -2,19 +2,19 @@
 
 Clothing Combinator is a web application that helps you find all possible combinations of clothing items within a budget.
 
-![Screenshot (108)](https://github.com/mevicky9254/Right2Vote_assignment/assets/112768362/0ad7f2df-2670-48e5-a686-9660b337003c)
-
-
 ## Table of Contents
+- [Highlights]("highlights")
 - [Endpoints](#endpoints)
 - [Deployment](#deployment)
-- [Tech Stack](#techstacks)
+- [Tech Stack](#techstack)
 - [Live Demo](#live-demo)
 - [Getting Started](#getting-started)
 - [Cloning the Project](#cloning-the-project)
 
 
-  
+## Highlights
+
+![Screenshot (108)](https://github.com/mevicky9254/Right2Vote_assignment/assets/112768362/0ad7f2df-2670-48e5-a686-9660b337003c)
 
 ## Endpoints
 
@@ -31,7 +31,7 @@ Clothing Combinator is a web application that helps you find all possible combin
 - **Jeans**: Rs. 80.00
 - **Jacket**: Rs. 100.00
 
-### 3. Tech Stacks
+### 3. Tech Stack
 - Java
 - Spring Boot
 - Docker
@@ -60,3 +60,6 @@ These instructions will help you get a copy of the project up and running on you
 
    ```bash
    git clone https://github.com/your-username/clothing-combinator.git
+  
+2. Set up the front-end and back-end environments.
+3. Run the application locally for development.
