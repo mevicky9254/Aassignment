@@ -5,6 +5,7 @@ Clothing Combinator is a web application that helps you find all possible combin
 ## Table of Contents
 - [Endpoints](#endpoints)
 - [Deployment](#deployment)
+- [Tech Stack](#techstacks)
 - [Getting Started](#getting-started)
 - [Live Demo](#live-demo)
 - [Cloning the Project](#cloning-the-project)
@@ -26,6 +27,15 @@ Clothing Combinator is a web application that helps you find all possible combin
 - **T-shirt**: Rs. 50.00
 - **Jeans**: Rs. 80.00
 - **Jacket**: Rs. 100.00
+
+### 3. Tech Stacks
+- Java
+- Spring Boot
+- Docker
+- JavaScript
+- HTML
+- CSS
+
 
 ## Deployment
 
