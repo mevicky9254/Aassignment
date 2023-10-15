@@ -16,19 +16,34 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Clothing Combinator</h1>
-        <div class="input-container">
-            <label for="budget" class="label">Enter your budget</label>
-            <input type="number" id="budget" class="input" placeholder="Enter budget">
-            <button id="calculate" class="button">Calculate</button>
-        </div>
+        
+            <h1 class="title">CLOTHING COMBINATOR</h1>
+            <div class="container_child1">
+                <div class="priceTags">
+                    <h2>Price Tags</h2>
+                    <p>T-shirt: ₹ 50.00</p>
+                    <p>Jeans: ₹  80.00</p>
+                    <p>Jacket: ₹  100.00</p>
+                </div>
+               <div class="input-container">
+                <h2 class="title">Get Your Combinations</h2>
+                   <input type="number" id="budget" class="input" placeholder="Enter your budget">
+                   <button id="calculate" class="button">Calculate</button>
+                   <h3 id="total-length" class="total-length"></h3>
+               </div>
+            </div>  
+
+            <div class="container_child2">
+                <h1>Your Cloth Combinations</h1>
+               </div>
+                <div class="result_container">
+                    <div id="results" class="results">
+                        <div id="result-list" class="result-list"></div>
+                    </div>
+                </div>
     </div>
-    <div class="result_container">
-        <div id="results" class="results">
-            <div id="result-list" class="result-list"></div>
-            <h3 id="total-length" class="total-length"></h3>
-        </div>
-    </div>
+
+   
     <script src="index.js"></script>
 </body>
 </html>

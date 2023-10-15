@@ -24,9 +24,9 @@ calculateButton.addEventListener('click', () => {
                     console.log(item)
                     resultList.innerHTML += `<p>${item}</p>`;
                 });
-                totalLength.innerHTML = `Total items: ${data.length}`;
-                resultContainer.style.display = 'block';
+                totalLength.innerHTML = `Total combinations: ${data.length}`;
             });
+            resultContainer.style.display = 'block';
     }
 });
 
