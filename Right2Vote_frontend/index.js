@@ -34,7 +34,6 @@ calculateButton.addEventListener('click', () => {
             })
             .catch(error => {
                 loader.style.display = 'none';
-                alert("Taking longer time than usual")
                 console.error('An error occurred:', error);
             });
 
