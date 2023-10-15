@@ -2,6 +2,9 @@
 
 Clothing Combinator is a web application that helps you find all possible combinations of clothing items within a budget.
 
+![Screenshot (108)](https://github.com/mevicky9254/Right2Vote_assignment/assets/112768362/0ad7f2df-2670-48e5-a686-9660b337003c)
+
+
 ## Table of Contents
 - [Endpoints](#endpoints)
 - [Deployment](#deployment)
