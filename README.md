@@ -25,13 +25,13 @@ Clothing Combinator is a web application that helps you find all possible combin
 - **Query Parameter**:
   - `budget` (required): The budget in Rs. Example: `/combination?budget=400`
 
-### 2. Prices of Clothing Items
+## 2. Prices of Clothing Items
 - **Description**: Prices of individual clothing items.
 - **T-shirt**: Rs. 50.00
 - **Jeans**: Rs. 80.00
 - **Jacket**: Rs. 100.00
 
-### 3. Tech Stack
+## 3. Tech Stack
 - Java
 - Spring Boot
 - Docker
