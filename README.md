@@ -9,8 +9,8 @@ Clothing Combinator is a web application that helps you find all possible combin
 - [Endpoints](#endpoints)
 - [Deployment](#deployment)
 - [Tech Stack](#techstacks)
-- [Getting Started](#getting-started)
 - [Live Demo](#live-demo)
+- [Getting Started](#getting-started)
 - [Cloning the Project](#cloning-the-project)
 
 
