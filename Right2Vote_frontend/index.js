@@ -20,27 +20,29 @@ calculateButton.addEventListener('click', () => {
         
         loader.style.display = 'block';
 
+        fetchTimeout = setTimeout(() => {
+            loader.style.display = 'none'; 
+            alert("Fetching data is taking too long. Please try again.");
+        }, 8000); 
+
         fetch(url)
             .then(response => response.json())
             .then(data => {
-                
-                loader.style.display = 'none';
-
+                clearTimeout(fetchTimeout); 
                 data.forEach(item => {
                     console.log(item);
                     resultList.innerHTML += `<p>${item}</p>`;
                 });
                 totalLength.innerHTML = `Total combinations: ${data.length}`;
+                loader.style.display = 'none'; 
+                
             })
             .catch(error => {
+                clearTimeout(fetchTimeout); 
                 loader.style.display = 'none';
                 console.error('An error occurred:', error);
             });
 
-             setTimeout(() => {
-               loader.style.display = 'none';
-             }, 3000); 
-
-        resultContainer.style.display = 'block';
+            resultContainer.style.display = 'block';
     }
 });
