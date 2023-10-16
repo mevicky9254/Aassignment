@@ -45,10 +45,10 @@ Clothing Combinator is a web application that helps you find all possible combin
 The Clothing Combinator is deployed using the following platforms:
 
 - Backend: [Render](https://backendservice-6vll.onrender.com/)
-- Frontend: [Netlify](https://mellifluous-cuchufli-f9c0a2.netlify.app/)
+- Frontend: [Netlify](https://sage-pithivier-7f47f8.netlify.app/)
   
 ## Live Demo
-- [Click here](https://mellifluous-cuchufli-f9c0a2.netlify.app/)
+- [Click here](https://sage-pithivier-7f47f8.netlify.app/)
 
 
 ## Getting Started
